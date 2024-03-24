@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishir's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <style>
+        /* CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        /* Container */
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        .section {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-bottom: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .section p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .t-a-c {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+  }
+  .table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  .list {
+    list-style: none;
+  }
+  th,
+  td {
+    padding: 15px;
+  }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Icon */
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            nav a {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shishir's Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>Welcome to my portfolio website! I'm thrilled to share my work and experiences with you.</p>
+            <a href="#about" class="btn" style="background-color: #28a745;">Learn More <i class="fas fa-arrow-right"></i></a>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Skills</h2>
+            <p>Here are my technical skills:</p>
+            <ul>
+                <li> Learned Programminmg Language like C,C++,JAVA,PYTHON</li>
+                <li> Web development</li>
+                <li> Calculator</li>
+            <a href="#projects" class="btn" style="background-color: #ffc107;">View Projects <i class="fas fa-arrow-right"></i></a>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here are some of my latest projects:</p>
+            <ul>
+                <li>Project 1: Portfolio Website</li>
+                <li>Project 2: Landing Page</li>
+                <li>Project 3: Calculator</li>
+            </ul>
+            <a href="#contact" class="btn" style="background-color: #dc3545;">Contact Me <i class="fas fa-arrow-right"></i></a>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">EMAIL</th>
+                    <td>shishirchandekar01@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PHONR NUMBER</th>
+                    <td>8421711153</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">INSTAGRAM</th>
+                    <td colspan="2">shishir_chandekar</td>
+                    <br\>
+                  </tr>
+              </table>
+            <p>Feel free to reach out to me via email at shishirchandekar01@gmail.com .I'm looking forward to hearing from you!</p>
+            <a href="#home" class="btn" style="background-color: #007bff;">Back to Top <i class="fas fa-arrow-up"></i></a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Shishir's Portfolio</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script> <!-- Font Awesome Script -->
+</body>
+</html>
